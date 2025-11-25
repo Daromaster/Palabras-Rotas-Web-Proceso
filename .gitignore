@@ -4,6 +4,7 @@
 .export/
 .back/
 
+desktop.ini
 
 # Godot Android builds (si algún día exportás)
 android/build/
