@@ -1,0 +1,41 @@
+# Godot 4+
+.godot/
+.import/
+.export/
+.back/
+
+
+# Godot Android builds (si algún día exportás)
+android/build/
+android/.gradle/
+android/.idea/
+android/local.properties
+
+# Exported builds (Windows, Linux, HTML, etc.)
+*.exe
+*.pck
+*.apk
+*.aab
+*.zip
+*.tar.gz
+*.html
+*.js
+
+desktop.ini
+
+# Temporary / system files
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+.DS_Store
+Thumbs.db
+
+# Godot crash dumps
+crash_*  
+
+# opcional para C#
+.mono/
+*.csproj
+*.sln
