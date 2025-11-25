@@ -12,15 +12,7 @@ android/.gradle/
 android/.idea/
 android/local.properties
 
-# Exported builds (Windows, Linux, HTML, etc.)
-*.exe
-*.pck
-*.apk
-*.aab
-*.zip
-*.tar.gz
-*.html
-*.js
+
 
 desktop.ini
 
