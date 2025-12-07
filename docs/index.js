@@ -470,22 +470,7 @@ const InternalConfig = function (initConfig) { // eslint-disable-line no-unused-
 		 * @ignore
 		 * @type {?function(...*)}
 		 */
-		onPrintError: function (var_args) {
-    try {
-        if (typeof console !== 'undefined' && console.error) {
-            // Convertir arguments a array de forma compatible
-            var args = Array.prototype.slice.call(arguments);
-            if (console.error.apply) {
-                console.error.apply(console, args);
-            } else {
-                // fallback por si apply no existe (muy raro)
-                console.error(args);
-            }
-        }
-    } catch (e) {
-        // Silenciar cualquier excepción aquí para no bloquear el arranque
-    }
-},
+		
 	};
 
 	/**
